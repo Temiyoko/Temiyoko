@@ -1,6 +1,6 @@
 <h2> Hello ! My name is Julia <img src="https://media.giphy.com/media/UowWJdCjKLFF15Rmet/giphy.gif" width="60"></h2>
 
-<img align='right' src="https://media.giphy.com/media/J6VwCNMsCvy8itOXkX/giphy.gif" width="230">
+<img align='right' src="https://media.giphy.com/media/J6VwCNMsCvy8itOXkX/giphy.gif" width="220">
 <p><em> Computer science student at <a href="https://iutparis-seine.u-paris.fr"> IUT Paris Rives de Seine </a><img src="https://media.giphy.com/media/kdQF3hmlKMqVOhsoAv/giphy.gif" width="40"></br> Looking for a two year internship in software or video game programming </a><img src="https://media.giphy.com/media/W2sGjKKmBpkQkOqCID/giphy.gif" width="30"> 
 </em></p>
 
@@ -8,33 +8,28 @@
 
 ### <img src="https://media.giphy.com/media/lSUc9xwYs6iwNaHnxQ/giphy.gif" width="50"> A little more about me...  
 
-```java
-package temiyoko.readme;
+```c++
+#include <iostream>
+#include <string>
+#include <vector>
 
-public class Programmer {
+struct Programmer {
+    std::string name = "Julia Lévêque";
+    std::string role = "Student";
+    std::vector<std::string> languagesSpoken = {"French", "English"};
+    std::vector<std::string> programmingLanguages = {"C", "C++", "VB.NET", "Python", "Java"};
+    std::vector<std::string> hobbies = {"Video Games", "Music", "Drawing", "Coding"};
 
-    private String name;
-    private String role;
-    private String[] languagesSpoken;
-    private String[] programmingLanguages;
-    private String[] hobbies;
-
-    public Programmer() {
-        this.name = "Julia Lévêque";
-        this.role = "Student";
-        this.languagesSpoken = new String[]{"French", "English"};
-        this.programmingLanguages = new String[]{"C", "C++", "VB.NET", "Python", "Java"};
-        this.hobbies = new String[]{"Video Games", "Music", "Drawing", "Coding"};
+    void sayHi() {
+        std::cout << "Thanks for dropping by, you can find some of my work in the link down my bio!" << std::endl;
     }
+};
 
-    public void sayHi() {
-      System.out.println("Thanks for dropping by, you can find some of my work in the link down my bio !");
-    }
-  
-    public static void main(String[] args) {
-        Programmer me = new Programmer();
-        me.sayHi();
-    }
+int main() {
+    Programmer me;
+    me.sayHi();
+
+    return 0;
 }
 ```
 
