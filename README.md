@@ -1,7 +1,7 @@
 <h2> Hello ! My name is Julia <img src="https://media.giphy.com/media/UowWJdCjKLFF15Rmet/giphy.gif" width="60"></h2>
 
 <img align='right' src="https://media.giphy.com/media/J6VwCNMsCvy8itOXkX/giphy.gif" width="200">
-<p><em> Computer science student at <a href="https://iutparis-seine.u-paris.fr"> IUT Paris Rives de Seine </a><img src="https://media.giphy.com/media/kdQF3hmlKMqVOhsoAv/giphy.gif" width="40"></br> Looking for a three and a half months internship in software or video game programming </a><img src="https://media.giphy.com/media/W2sGjKKmBpkQkOqCID/giphy.gif" width="30"> 
+<p><em> Apprentice computer science engineer at <a href="https://www.esiee.fr/"> ESIEE Paris </a><img src="https://media.giphy.com/media/kdQF3hmlKMqVOhsoAv/giphy.gif" width="40"></br> Looking for a three year apprenticeship in IT development </a><img src="https://media.giphy.com/media/W2sGjKKmBpkQkOqCID/giphy.gif" width="30"> 
 </em></p>
 
 [![Linkedin: julia-lévêque](https://img.shields.io/badge/-julia--lévêque-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/julia-lévêque/)](https://www.linkedin.com/in/julia-lévêque/)
@@ -16,8 +16,8 @@
 struct Programmer {
     std::string name = "Julia Lévêque";
     std::string role = "Student";
-    std::vector<std::string> languagesSpoken = {"French", "English"};
-    std::vector<std::string> programmingLanguages = {"Java", "Python", "Dart", "HTML/CSS", "JavaScript", "C", "C++", "VB.NET"};
+    std::vector<std::string> languagesSpoken = {"French", "English", "Portuguese"};
+    std::vector<std::string> programmingLanguages = {"Java", "Python", "Dart", "HTML/CSS", "JavaScript", "React Native", "Node.js"};
     std::vector<std::string> hobbies = {"Coding", "Video Games", "Music", "Drawing"};
 
     void sayHi() {
