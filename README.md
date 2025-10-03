@@ -1,7 +1,7 @@
 <h2> Hello ! My name is Julia <img src="https://media.giphy.com/media/UowWJdCjKLFF15Rmet/giphy.gif" width="60"></h2>
 
 <img align='right' src="https://media.giphy.com/media/J6VwCNMsCvy8itOXkX/giphy.gif" width="200">
-<p><em> Apprentice computer science engineer at <a href="https://www.esiee.fr/"> ESIEE Paris </a><img src="https://media.giphy.com/media/kdQF3hmlKMqVOhsoAv/giphy.gif" width="40"></br> Looking for a three year apprenticeship in IT development </a><img src="https://media.giphy.com/media/W2sGjKKmBpkQkOqCID/giphy.gif" width="30"> 
+<p><em> Computer engineering student at <a href="https://www.esiee.fr/"> ESIEE Paris</a><img src="https://media.giphy.com/media/kdQF3hmlKMqVOhsoAv/giphy.gif" width="40"></br> Looking forward to new opportunities </a><img src="https://media.giphy.com/media/W2sGjKKmBpkQkOqCID/giphy.gif" width="30"> 
 </em></p>
 
 [![Linkedin: julia-lévêque](https://img.shields.io/badge/-julia--lévêque-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/julia-lévêque/)](https://www.linkedin.com/in/julia-lévêque/)
