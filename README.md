@@ -17,7 +17,7 @@ struct Programmer {
     std::string name = "Julia Lévêque";
     std::string role = "Student";
     std::vector<std::string> languagesSpoken = {"French", "English", "Portuguese"};
-    std::vector<std::string> programmingLanguages = {"Java", "Python", "Dart", "HTML/CSS", "JavaScript", "React Native", "Node.js"};
+    std::vector<std::string> programmingLanguages = {"Java", "Dart", "Python", "C/C++", "JavaScript", "React Native"};
     std::vector<std::string> hobbies = {"Coding", "Video Games", "Music", "Drawing"};
 
     void sayHi() {
